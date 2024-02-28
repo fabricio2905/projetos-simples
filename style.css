@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.project {
+    display: flex;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.project-thumbnail {
+    flex: 1;
+}
+
+.project-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    flex: 2;
+    padding: 20px;
+}
+
+.project-info h2 {
+    color: #333;
+}
+
+.project-info p {
+    color: #666;
+}
+
+.project-info a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
