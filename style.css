@@ -5,3 +5,54 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header{
+    padding: 30px;
+    text-align: center;
+    background-color: gol;
+    color: rgb(48, 45, 45);
+}
+div {
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+}
+div#android{
+    background-image: linear-gradient( to right, #2fa866, #ebe5c5 60%);
+    
+}
+
+#android > a:hover {
+    color: #ebe5c5; /* Cor do texto ao passar o mouse */
+}
+
+div#cordel{
+    background-image: linear-gradient(to right, black, white);
+}
+
+#cordel > a:hover {
+    color: #919090; /* Cor do texto ao passar o mouse */
+}
+
+div#social{
+    background-image: linear-gradient(to right, #452F1D, #857650);
+}
+
+#social > a:hover {
+    color: #857650; /* Cor do texto ao passar o mouse */
+}
+
+div#login{
+    background-image: linear-gradient(to right, #5B3C85, #49a09d);
+}
+
+#login > a:hover {
+    color: #49a09d; /* Cor do texto ao passar o mouse */
+}
+
+a {
+    text-decoration: none;
+    color: white; /* Cor do texto */
+    font-weight: bold; /* Peso da fonte */
+}
